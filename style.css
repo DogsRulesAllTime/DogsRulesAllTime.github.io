@@ -1,0 +1,220 @@
+.wrap{
+    position: relative;
+}
+.navigation{
+    position: absolute;
+    z-index: 999999;
+}
+.nav_logo{
+    background-color: black;
+    /* /* height: 100vh */
+    height: 100%;
+}
+.nav_logo img{
+    width: 122px;
+    height: 46px;
+    position: fixed;
+    left: 60px;
+    top: 60px;
+}
+.nav_menu_icon{
+    /* background-image: url('imgs/menu_icon.png'); */
+    border-style: none;
+    color: white;
+    /* background-color: #fff; */
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    right: 60px;
+    top: 60px;
+    transform: rotate(90deg) scale(1.2);
+    /* transition: all 3s ease-in-out; */
+}
+.nav_menu_icon :hover{
+    cursor: pointer;
+    transform: rotate(90deg) scale(1.4);
+    transition: all 0.6s ease-in-out;
+
+}
+.nav_menu_slide{
+    position: fixed;
+    top: 0px;
+    /* right: -50%; */
+    right: -50vw;
+    width: 50vw;
+    height: 100vh;
+    background-color: #fff;
+    transition: all 0.4s ease-in-out;
+}
+.nav_menu_slide_close{
+    height: 50px;
+    width: 50px;
+    /* background-color: red; */
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    transition: all 1s ease-in-out;
+}
+.nav_menu_slide_close :hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.nav_menu_slide_list{
+    /* margin: 0px auto; */
+    text-align: left;
+    margin-top: 25vh;
+    position: absolute;
+    left: 35%;
+}
+.nav_menu_item{
+    margin-top: 15px;
+    /* position: absolute; */
+    /* text-align: center; */
+}
+.nav_menu_slide_list a{
+    /* display: block; */
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 40px;
+    color: black; 
+    /* text-align: center; */
+}
+.section{
+    /* background-color: red; */
+    height: 110vh;
+    position: relative;
+}
+.section_text{
+    position: absolute;
+    left: 30%;
+    top: 30vh;
+}
+.section p{
+    color: white;
+    /* line-height: 1px; */
+    font-size: 28px;
+    font-family: Arial;
+    font-weight: bold;
+    white-space: inherit;
+    text-align: left;
+}
+iframe{
+    z-index: 10;
+}
+.section_title{
+    position: absolute;
+    font-family: Arial;
+    font-weight: bold;
+    font-style: normal;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+    /* padding-top: -60vh; */
+    margin-top: -450px;
+    z-index: 999990;
+}
+.section_btn{
+    position: absolute;
+    margin-top: -350px;
+    font-family: Arial;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 30px;
+    border: white;
+    border-width: 2px;
+    border-style: solid;
+    text-align: center;
+    width: 20%;
+    margin-left: 40%;
+    /* margin-top: 40px; */
+    z-index: 999990;
+    /* cursor: pointer; */
+}
+.section_btn a{
+    text-decoration: none;
+    color: white;
+}
+.section_info{
+    position: absolute;
+    font-family: Arial;
+    font-weight: bold;
+    font-style: normal;
+    color: white;
+    left: 15vw;
+    bottom: 60px;
+    font-size: 20px;
+}
+.gallery_wrap{
+    position: absolute;
+    right: 40px;
+    top: 15vh;
+    
+}
+.section_gallery{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 100%;
+    
+}
+.section_gallery_img{
+    width: 40%;
+    background-color: #fff;
+    height: 200px;
+    padding: 50px;
+    margin: 10px;
+}
+.img1{
+    background-image: url(imgs/cropped_image.jpeg);
+}
+.img2{
+    background-image: url(imgs/cropped_image2.jpeg);
+}
+.img3{
+    background-image: url(imgs/cropped_image3.jpeg);
+}
+.img4{
+    background-image: url(imgs/cropped_image4.jpeg);
+}
+.img5{
+    background-image: url(imgs/cropped_image5.jpeg);
+}
+.img6{
+    background-image: url(imgs/cropped_image6.jpeg);
+}
+.section_desc{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: absolute;
+    left: 5vw;
+    padding-top: 15vh;
+    width: 30vw;
+    font-size: 20px;
+}
+.section_product{
+    padding-bottom: 20px;
+    font-size: 35px;
+}
+.section_year{
+    display: inline-block;
+}
+.section_type{
+    display: inline-block;
+    padding-left: 50px;
+}
+
+.green{
+    background-color: green;
+}
+.black{
+    background-color: black;
+}
+.red{
+    background-color: red;
+}
